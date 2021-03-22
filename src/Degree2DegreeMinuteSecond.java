@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Degree2DegreeMinuteSecond {
 
     public void D2DMS(){
+        Utils.ClearScreen();
 
+        System.out.printf("Enter value in degrees: ");
         Scanner in = new Scanner(System.in);
 
         DecimalFormat df = new DecimalFormat("###.###");
@@ -24,10 +26,9 @@ public class Degree2DegreeMinuteSecond {
             second = 0;
         }
 
-        System.out.println(degree + "° " + (int)minute + "' " + second + "''");
+        System.out.println(degree + "° " + (int)minute + "' " + second + "''\n");
 
-        new MainMenu().program();
-
+        Utils.Pause();
     }
 
 }
