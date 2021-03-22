@@ -20,11 +20,11 @@ java Main
 ```
 on the compiled project in the src folder.
 This will open an interactive menu:   
-[!Main menu](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/menu.png?raw=true)   
+![Main menu](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/menu.png?raw=true)   
 <br>   
 You then choose an option.
 First option converts degrees to radians, and thus receives a decimal or float input:   
-[!First option](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/one.png?raw=true)  
+![First option](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/one.png?raw=true)  
 <br>
 The second option converts radians to degrees, and thus receives input in the following format: degrees minutes seconds. For example:  
-[!Second option](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/two.png?raw=true)
+![Second option](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/two.png?raw=true)
