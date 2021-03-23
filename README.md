@@ -28,3 +28,5 @@ First option converts degrees to radians, and thus receives a decimal or float i
 <br>
 The second option converts radians to degrees, and thus receives input in the following format: degrees minutes seconds. For example:  
 ![Second option](https://github.com/ClaraCF/Degree2DegreeMinuteSecond-Conversor/blob/main/images/two.png?raw=true)
+<br>
+Third option, as expected, gracefully exits the program returning 0.
