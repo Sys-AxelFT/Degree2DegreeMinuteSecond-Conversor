@@ -6,8 +6,10 @@ public class MainMenu {
 
     public void printOptions(boolean error) {
         System.out.println("-= MAIN MENU =-");
-        System.out.println("option 1: Degree2DegreeMinuteSecond");
-        System.out.println("option 2: DegreeMinuteSecond2Degree\n");
+        System.out.println("option 1: Convert degrees to DMS notation");
+        System.out.println("option 2: Convert DMS notation to degrees");
+        System.out.println("option 3: Exit the program");
+        System.out.println();
 
         if(error)
         {
@@ -28,19 +30,20 @@ public class MainMenu {
             int userAnswer = in.nextInt();
 
             if(userAnswer == 1)
-            {
                 new Degree2DegreeMinuteSecond().D2DMS();
-            }
 
             else if(userAnswer == 2)
-            {
                 new DegreeMinuteSecond2Degree().DMS2D();
+
+            else if(userAnswer == 3)
+            {
+                Utils.ClearScreen();
+                System.exit(0);
             }
 
             else
-            {
               error = true;
-            }
+
         } while(true);
 
     }
