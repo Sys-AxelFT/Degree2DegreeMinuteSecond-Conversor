@@ -3,8 +3,11 @@ import java.util.Scanner;
 public class DegreeMinuteSecond2Degree {
 
     public void DMS2D(){
+        Utils.ClearScreen();
 
         Scanner in = new Scanner(System.in);
+
+        System.out.printf("Enter value (degrees minutes seconds): ");
 
         float degree = in.nextFloat();
         float minute = in.nextFloat();
@@ -16,8 +19,8 @@ public class DegreeMinuteSecond2Degree {
 
         float total = a + b + c;
 
-        System.out.println(total + "°");
+        System.out.println(total + "°\n");
 
-        new MainMenu().program();
+        Utils.Pause();
     }
 }

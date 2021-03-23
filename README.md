@@ -10,7 +10,7 @@ You will need Java 11 or above [installed](https://www.oracle.com/java/technolog
 ```bash
 git clone https://github.com/Sys-AxelFT/Degree2DegreeMinuteSecond-Conversor
 cd Degree2DegreeMinuteSecond-Conversor/src
-javac Main.java
+javac Degree2DegreeMinuteSecond.java DegreeMinuteSecond2Degree.java Main.java
 ```
 &nbsp;
 ## Usage
